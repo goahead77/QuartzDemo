@@ -1,0 +1,3 @@
+本demo使用Quartz+Spring 实现动态任务的开启和关闭
+ExampleJob 该任务中的触发器执行一定时间后关闭
+ExtraJob 监听ExampleJob ，如果任务已经关闭，重新启动ExampleJob任务。
